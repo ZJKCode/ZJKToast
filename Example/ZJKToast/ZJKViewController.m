@@ -8,7 +8,7 @@
 
 #import "ZJKViewController.h"
 #import "UIView+Toast.h"
-
+#import "iToast.h"
 @interface ZJKViewController ()
 
 @end
@@ -18,12 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 
     [self.view makeToast:@"Hello word"];
-    
-    [self.view makeToast:@"CSToastPositionTop" duration:2 position:CSToastPositionTop];
-    
+        
     [self.view makeToast:@"CSToastPositionCenter" duration:0.1 position:CSToastPositionCenter];
+
+    
+    iToast *toast=[iToast makeText:@"common_string_remind_commit_success"];
+    [toast setDuration:iToastDurationShort];
+    [toast setGravity:iToastGravityCenter];
+    [toast show];
+    
 
 }
 

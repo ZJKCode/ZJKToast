@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "iToast.h"
 #import "UIView+Toast.h"
 
 FOUNDATION_EXPORT double ZJKToastVersionNumber;
