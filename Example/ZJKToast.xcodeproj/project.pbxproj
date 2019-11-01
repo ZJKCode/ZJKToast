@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8878CE1E854A961C9B851997 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9FCB976AB61CB85BD640F8DD /* ZJKToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZJKToast.podspec; path = ../ZJKToast.podspec; sourceTree = "<group>"; };
+		8878CE1E854A961C9B851997 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9FCB976AB61CB85BD640F8DD /* ZJKToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJKToast.podspec; path = ../ZJKToast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A250A5F6B88F4E17B66B4675 /* Pods-ZJKToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJKToast_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZJKToast_Example/Pods-ZJKToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A5A0708FA95BED38D5CC0444 /* Pods_ZJKToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJKToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E779BB4A69D1630FD52EE02C /* Pods-ZJKToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJKToast_Example.release.xcconfig"; path = "Target Support Files/Pods-ZJKToast_Example/Pods-ZJKToast_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F6F7C74C655CE57A1128FECB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6F7C74C655CE57A1128FECB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				06F244A8DE67C88B1C13D68C /* Pods-ZJKToast_Tests.debug.xcconfig */,
 				4F4B643185B2AA7EADD68398 /* Pods-ZJKToast_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

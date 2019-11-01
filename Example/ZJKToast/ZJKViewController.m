@@ -7,6 +7,7 @@
 //
 
 #import "ZJKViewController.h"
+#import "UIView+Toast.h"
 
 @interface ZJKViewController ()
 
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [self.view makeToast:@"Hello word"];
+    
+    [self.view makeToast:@"CSToastPositionTop" duration:2 position:CSToastPositionTop];
+    
+    [self.view makeToast:@"CSToastPositionCenter" duration:0.1 position:CSToastPositionCenter];
+
 }
 
 - (void)didReceiveMemoryWarning

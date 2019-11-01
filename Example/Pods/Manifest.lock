@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZJKToast (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZJKToast (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZJKToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZJKToast: 6a17bd10192016146000304eb990e7e33fc3da4e
+
+PODFILE CHECKSUM: 7850b3c7d4237409deaee53731ed79e8fd52c325
+
+COCOAPODS: 1.8.4
