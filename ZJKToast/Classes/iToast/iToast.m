@@ -80,15 +80,7 @@ static iToastSettings *sharedSettings = nil;
 	UIFont *font = [UIFont systemFontOfSize:theSettings.fontSize];
     UIColor *color = theSettings.fontColor; // [UIColor whiteColor]
     
-    CGSize textSize;
-    // 下面的方法在iOS7.0后就过期了
-    if(IOS7_OR_LATER)
-    {
-        textSize = [text boundingRectWithSize:CGSizeMake(280,60) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:font} context:nil].size;
-    }else
-    {
-        textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(280, 60)];
-    }
+    CGSize textSize = [text boundingRectWithSize:CGSizeMake(280,60) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:font} context:nil].size;
 //	CGSize textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(280, 60)];
 //	CGSize textSize = [text boundingRectWithSize:CGSizeMake(280,60) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:font} context:nil].size;
 	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, textSize.width + kComponentPadding, textSize.height + kComponentPadding)];
@@ -226,6 +218,7 @@ static iToastSettings *sharedSettings = nil;
 			break;
 		}
 		default:
+            point = CGPointMake(0, 0);
 			break;
 	}
 
