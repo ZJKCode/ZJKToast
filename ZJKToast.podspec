@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJKToast'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '私有Toast，进行个性化定制'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ZJKCode/ZJKToast'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'k721684713@163.com' => 'zhangjikuan@winchannel.net' }
+  s.author           = { 'ZJKCode' => 'k721684713@163.com' }
   s.source           = { :git => 'https://github.com/ZJKCode/ZJKToast.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
