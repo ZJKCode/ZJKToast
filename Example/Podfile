@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZJKToast_Example' do
+  pod 'ZJKToast', :path => '../'
+
+  target 'ZJKToast_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
